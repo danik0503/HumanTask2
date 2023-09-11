@@ -6,7 +6,7 @@ public class HumansStetistic {
 
         for (int i= 0; i< humans.length; i++){
             Human currentHuman = humans[i];
-            int currentHumanAge = humans[i].age;
+            int currentHumanAge = humans[i].getAge();
             ages[currentHumanAge]++;
         }
         return ages;

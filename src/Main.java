@@ -6,6 +6,8 @@ public class Main {
         HumansStetistic statistic = new HumansStetistic();
 
         Human humans[] = generator.generate(1000);
+
+
         printer.printTable(humans);
 
         int ages[] = statistic.getAgesStatistic(humans);
@@ -18,4 +20,4 @@ public class Main {
         printer.printTable(ages);
 
     }
-} 
+}

@@ -136,7 +136,8 @@ public class HumanGenerator {
             newHuman.firstName = firstNames[random.nextInt(firstNames.length)];
             newHuman.lastName = lastNames[random.nextInt(lastNames.length)];
             // человека положили в массив
-            newHuman.age = random.nextInt(100);
+            newHuman.setAge(random.nextInt(100));
+            // newHuman.age = random.nextInt(100);
             humans[i] = newHuman;
         }
         // вернули список людей

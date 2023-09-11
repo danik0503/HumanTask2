@@ -5,7 +5,7 @@ public class HumansTablePrinter {
         System.out.println("--------------------------------");
 
         for (int i = 0;i < humans.length;i++){
-            System.out.printf("|%10s|%15s|%3d|\n" , humans[i].firstName, humans[i].lastName, humans[i].age);
+            System.out.printf("|%10s|%15s|%3d|\n" , humans[i].firstName, humans[i].lastName, humans[i].getAge() );
         }
     }
     void printTable(int ages[]){
